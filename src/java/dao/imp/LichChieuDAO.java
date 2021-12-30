@@ -32,7 +32,7 @@ public class LichChieuDAO extends DAO implements ILichChieuDAO {
     }
 
     @Override
-    public void autoGenerateLichChieuForPhongChieuByDay(int idPhongChieu, Date ngay) {
+    public void autoGenForDate(int idPhongChieu, Date ngay) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

@@ -75,6 +75,12 @@ public class Ve {
     public void setLichChieu(LichChieu lichChieu) {
         this.lichChieu = lichChieu;
     }
+
+    public int getGiaVe() {
+        return giaVe;
+    }
+    
+    
     
     
 }

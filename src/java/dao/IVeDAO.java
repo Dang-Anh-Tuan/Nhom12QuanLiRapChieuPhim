@@ -18,4 +18,6 @@ public interface IVeDAO {
     List<Ve> findByThongTinDatVe(int idTTDV);
     
     List<Ve> findByLichChieu(int idLC);   
+    
+    void autoGenForLichChieu(int idLC);
 }

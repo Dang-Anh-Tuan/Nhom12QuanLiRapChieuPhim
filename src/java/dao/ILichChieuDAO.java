@@ -21,7 +21,7 @@ public interface ILichChieuDAO {
 
     List<LichChieu> findByPhongChieuAndNgay(int idPhongChieu, Date ngay);
 
-    void autoGenerateLichChieuForPhongChieuByDay(int idPhongChieu, Date ngay);
+    void autoGenForDate(int idPhongChieu, Date ngay);
 
     int update(LichChieu lichChieu);
 

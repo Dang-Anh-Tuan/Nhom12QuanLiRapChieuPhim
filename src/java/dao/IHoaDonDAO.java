@@ -11,7 +11,7 @@ import model.HoaDon;
  *
  * @author ADMIN
  */
-public interface IHoaDon {
+public interface IHoaDonDAO {
     int save(HoaDon hoaDon);
     
     HoaDon findByThongTinDatVe(int idTTDV);

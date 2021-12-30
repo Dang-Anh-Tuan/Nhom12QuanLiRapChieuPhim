@@ -5,14 +5,14 @@
  */
 package dao.imp;
 
-import dao.IHoaDon;
 import model.HoaDon;
+import dao.IHoaDonDAO;
 
 /**
  *
  * @author ADMIN
  */
-public class HoaDonDAO implements IHoaDon{
+public class HoaDonDAO implements IHoaDonDAO{
 
     @Override
     public int save(HoaDon hoaDon) {
